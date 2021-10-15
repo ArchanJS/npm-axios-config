@@ -1,5 +1,5 @@
 {
-  "name": "axios-config",
+  "name": "npm-axios-config",
   "version": "1.0.1",
   "description": "A npm package for Reactjs, to handle config variables while making any request using axios.",
   "main": "index.js",
