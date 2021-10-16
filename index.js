@@ -13,6 +13,17 @@ const axiosConfig = (type, token) => {
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${token}`,
             }
+        },
+        {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            }
+        },
+        {
+            headers: {
+                'Content-Type': 'multipart/form-data',
+                Authorization: `Bearer ${token}`,
+            }
         }
     ]
 
@@ -23,6 +34,12 @@ const axiosConfig = (type, token) => {
             break;
         case "privBearerConfig":
             configInd = 1;
+            break;
+        case "pubMultConfig":
+            configInd = 2;
+            break;
+        case "privMultConfig":
+            configInd = 3;
             break;
         default:
             break;
