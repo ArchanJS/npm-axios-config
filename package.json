@@ -1,6 +1,6 @@
 {
-  "name": "npm-axios-config",
-  "version": "1.0.1",
+  "name": "axios-config",
+  "version": "1.0.0",
   "description": "A npm package for Reactjs, to handle config variables while making any request using axios.",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,13 @@
     "url": "git+https://github.com/ArchanJS/npm-axios-config.git"
   },
   "keywords": [
-    "npm-axios",
     "axios",
+    "npm-axios",
     "config",
-    "npm-axios-config",
-    "react",
-    "axios-request",
-    "request",
     "axios-config",
-    "axios-config-npm"
+    "npm-axios-config",
+    "request",
+    "react"
   ],
   "author": "archan9",
   "license": "ISC",
